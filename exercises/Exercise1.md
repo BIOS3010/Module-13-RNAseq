@@ -4,8 +4,8 @@ Using your terminal, log in to either `itf-appn-test01.hpc.uio.no` (group 1-5 do
 
 ## 13.1.2. Logging in to the external server
 ```diff
-! In your home directory, make a directory called `Module12` 
-! Navigate into the newly created `Module12` folder
+! In your home directory, make a directory called `Module13` 
+! Navigate into the newly created `Module13` folder
 ```
 
 ```diff
