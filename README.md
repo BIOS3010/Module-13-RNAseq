@@ -9,3 +9,6 @@ sequence to final results
 - Downloading and uploading data to/from the server
 - Performing a simple gene expression analysis with RNA-seq data
 - Visualizing and exploring our results in the Integrative Genome Browser (IGV)
+
+## 13.1 XXX
+- Go to [these exercises](exercises/Exercise1.md) and follow the steps
