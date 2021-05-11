@@ -17,6 +17,7 @@ First, we need to download the required RNA-seq data:
 ```diff
 ! Download: ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/fastq/ERA294/ERA294220/ERX424840/ERR458493.fastq.bz2
 ! Decompress the file
+! Do you recognize the file type?
 ```
 ```diff
 Note: 
