@@ -25,4 +25,13 @@ Note:
 + Forgotten how to decompress files? revisit exercise 1.4.12
 ```
 
+## 13.1.3. 
 
+```diff
+! 
+! Create a folder called `sacCer3`
+! Download: https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.fa.gz
+! Move the file `sacCer3.fa.gz` into the `sacCer3` folder
+! Decompress sacCer3/sacCer3.fa.gz
+! Do you recognize the file type?
+```
