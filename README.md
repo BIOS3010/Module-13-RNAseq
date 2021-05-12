@@ -10,5 +10,8 @@ sequence to final results
 - Performing a simple gene expression analysis with RNA-seq data
 - Visualizing and exploring our results in the Integrative Genome Browser (IGV)
 
-## 13.1 XXX
+## 13.1 Mapping RNA-seq reads to an indexed reference genome sequence
 - Go to [these exercises](exercises/Exercise1.md) and follow the steps
+## 13.2 Visualizing mapped reads in a genome browser (IGV)
+- Go to [these exercises](exercises/Exercise2.md) and follow the steps
+
