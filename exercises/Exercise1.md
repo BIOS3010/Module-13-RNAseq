@@ -25,7 +25,7 @@ Note:
 + Forgotten how to decompress files? revisit exercise 1.4.12
 ```
 
-## 13.1.3. 
+## 13.1.3. Downloading the Saccharomyces cerevisiae genome sequence
 
 ```diff
 ! 
