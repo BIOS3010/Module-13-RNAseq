@@ -28,10 +28,16 @@ Note:
 ## 13.1.3. Downloading the Saccharomyces cerevisiae genome sequence
 
 ```diff
-! 
 ! Create a folder called `sacCer3`
 ! Download: https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.fa.gz
 ! Move the file `sacCer3.fa.gz` into the `sacCer3` folder
 ! Decompress sacCer3/sacCer3.fa.gz
 ! Do you recognize the file type?
+```
+
+## 13.1.4.
+- Run the following commands to load the sequence mapping software (STAR) and software to work with the sequences (SAMtools):
+
+```bash
+module load STAR/2.7.8a-GCC-10.2.0 SAMtools/1.10-GCC-9.3.0
 ```
