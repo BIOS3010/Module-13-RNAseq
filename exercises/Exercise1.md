@@ -53,3 +53,14 @@ STAR --runThreadN 1 --runMode genomeGenerate --genomeDir sacCer3 --genomeFastaFi
 ```bash
 STAR --genomeDir sacCer3/ --readFilesIn ERR458493.fastq --outFileNamePrefix results --outFilterMultimapNmax 1 --outSAMtype BAM SortedByCoordinate --runThreadN 1 --alignIntronMin 1 --alignIntronMax 2500
 ```
+
+## 13.1.6 Make an index of the mapping results (needed for visualization later)
+- Run this:
+```bash
+samtools index resultsAligned.sortedByCoord.out.bam
+```
+
+## 13.1.7 Interpreting the output file
+```diff
+! Look at the resultsLog.final.out file. Try to describe what you see in the file.
+```
