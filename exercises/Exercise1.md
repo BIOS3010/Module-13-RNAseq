@@ -35,9 +35,21 @@ Note:
 ! Do you recognize the file type?
 ```
 
-## 13.1.4.
+## 13.1.4. Preparing for mapping the RNA-seq data
 - Run the following commands to load the sequence mapping software (STAR) and software to work with the sequences (SAMtools):
 
 ```bash
 module load STAR/2.7.8a-GCC-10.2.0 SAMtools/1.10-GCC-9.3.0
+```
+Then, make an index of the genome:
+
+```bash
+STAR --runThreadN 1 --runMode genomeGenerate --genomeDir sacCer3 --genomeFastaFiles sacCer3/sacCer3.fa --sjdbGTFfile sacCer3/sacCer3.ensGene.gtf --sjdbOverhang 49
+```
+
+## 13.1.5 Mapping RNA-seq reads to the refernence genome index
+- Run this command to map the reads to the reference genome sequence:
+
+```bash
+STAR --genomeDir sacCer3/ --readFilesIn ERR458493.fastq --outFileNamePrefix results --outFilterMultimapNmax 1 --outSAMtype BAM SortedByCoordinate --runThreadN 1 --alignIntronMin 1 --alignIntronMax 2500
 ```
