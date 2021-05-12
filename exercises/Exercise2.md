@@ -1,5 +1,6 @@
 # Visualizing RNA-seq using IGV
-Download the files `resultsAligned.sortedByCoord.out.bam` and `resultsAligned.sortedByCoord.out.bam.bai` from the server to your local computer. If you have forgotten how to do this, you can go back to the previous UNIX exercise 3.
+Download the files `resultsAligned.sortedByCoord.out.bam` and `resultsAligned.sortedByCoord.out.bam.bai` from the server to your local computer. If you have forgotten how to do this, revisit https://github.com/BIOS3010/Module-5-multiple-alignment#533-moving-files-from-an-external-server-to-your-own-computer
+Note that we need to modify this to the server.
           
 1. Download IGV from here: http://software.broadinstitute.org/software/igv/download according to your computer's operating system
 2. Install the downloaded IGV according to instructions on the web site
