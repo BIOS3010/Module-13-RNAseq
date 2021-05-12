@@ -15,6 +15,6 @@ Download the files `resultsAligned.sortedByCoord.out.bam` and `resultsAligned.so
 ! A non-annotated gene with gene expression
 + Note that yeast has very few introns compared to other eukaryotes.
 ! But can you find a gene with RNA-seq reads spanning the junction of two exons
-+ A gene with an exon which is not expressed (meaning that the exon is skipped in the splicing)
-+ Do you observe some other interesting things?
-+ ```
+! A gene with an exon which is not expressed (meaning that the exon is skipped in the splicing)
+! Do you observe some other interesting things?
+```
