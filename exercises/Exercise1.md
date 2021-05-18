@@ -79,3 +79,5 @@ samtools index resultsAligned.sortedByCoord.out.bam
 ```diff
 ! Look at the resultsLog.final.out file. Try to describe what you see in the file.
 ```
+
+Then, go to [Exercise 2](https://github.com/BIOS3010/Module-13-RNAseq/blob/main/exercises/Exercise2.md)
