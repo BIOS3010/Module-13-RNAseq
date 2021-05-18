@@ -50,8 +50,8 @@ Note:
 
 Now we have the (1) RNA-seq sequence data (fastq format), the genome sequence of the organism we are studing (fasta format), and the gene annotation (.gtf format). Now we are ready to do our RNA-seq gene expression analysis.
 
-## 13.1.5. Preparing for mapping the RNA-seq data
-- Run the following commands to load the sequence mapping software (STAR) and software to work with the sequences (SAMtools):
+## 13.1.5. Preparing for mapping the RNA-seq data: making the suffix array index of the genome
+- Run the following commands to load the sequence mapping software (STAR), and software to work with the sequences (SAMtools):
 
 ```bash
 module load STAR/2.7.8a-GCC-10.2.0 SAMtools/1.10-GCC-9.3.0
