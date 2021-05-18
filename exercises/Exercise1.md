@@ -36,7 +36,7 @@ Note:
 ! Decompress sacCer3/sacCer3.fa.gz
 ! Do you recognize the file type?
 ```
-
+```diff
 Note: 
 + Forgotten how to decompress .gz files? revisit exercise 1.4.12
 ```
