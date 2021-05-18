@@ -16,13 +16,15 @@ Using your terminal, log in to either `itf-appn-test01.hpc.uio.no` (group 1-5 do
 First, we need to download the required RNA-seq data:
 ```diff
 ! Download: https://ddbj.nig.ac.jp/public/ddbj_database/dra/fastq/ERA294/ERA294220/ERX424840/ERR458493.fastq.bz2
-! Decompress the file using the command `bzip2 -d ERR458493.fastq.bz2`
++ Note that the file ends with .bz2
+! Use Google to find which decompression command to use for .bz2 files
+! Decompress the file `ERR458493.fastq.bz2`
 ! Do you recognize the file type?
 ```
+
 ```diff
 Note: 
 + Forgotten how to download files? revisit exercise 1.4.11
-+ Forgotten how to decompress files? revisit exercise 1.4.12
 ```
 
 ## 13.1.3. Downloading the Saccharomyces cerevisiae genome sequence
@@ -34,6 +36,11 @@ Note:
 ! Decompress sacCer3/sacCer3.fa.gz
 ! Do you recognize the file type?
 ```
+
+Note: 
++ Forgotten how to decompress .gz files? revisit exercise 1.4.12
+```
+
 
 ## 13.1.4. Preparing for mapping the RNA-seq data
 - Run the following commands to load the sequence mapping software (STAR) and software to work with the sequences (SAMtools):
