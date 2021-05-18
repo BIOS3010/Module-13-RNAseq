@@ -41,8 +41,16 @@ Note:
 + Forgotten how to decompress .gz files? revisit exercise 1.4.12
 ```
 
+## 13.1.4. Download the Saccharomyces cerevisiae genome annotations from Ensembl
+```diff
+! Download http://hgdownload.cse.ucsc.edu/goldenPath/sacCer3/bigZips/genes/sacCer3.ensGene.gtf.gz
+! Move `sacCer3.ensGene.gtf.gz` into the `sacCer3` folder
+! Decompress sacCer3/sacCer3.ensGene.gtf.gz
+```
 
-## 13.1.4. Preparing for mapping the RNA-seq data
+Now we have the (1) RNA-seq sequence data (fastq format), the genome sequence of the organism we are studing (fasta format), and the gene annotation (.gtf format). Now we are ready to do our RNA-seq gene expression analysis.
+
+## 13.1.5. Preparing for mapping the RNA-seq data
 - Run the following commands to load the sequence mapping software (STAR) and software to work with the sequences (SAMtools):
 
 ```bash
@@ -54,20 +62,20 @@ Then, make an index of the genome:
 STAR --runThreadN 1 --runMode genomeGenerate --genomeDir sacCer3 --genomeFastaFiles sacCer3/sacCer3.fa --sjdbGTFfile sacCer3/sacCer3.ensGene.gtf --sjdbOverhang 49
 ```
 
-## 13.1.5 Mapping RNA-seq reads to the refernence genome index
+## 13.1.6 Mapping RNA-seq reads to the refernence genome index
 - Run this command to map the reads to the reference genome sequence:
 
 ```bash
 STAR --genomeDir sacCer3/ --readFilesIn ERR458493.fastq --outFileNamePrefix results --outFilterMultimapNmax 1 --outSAMtype BAM SortedByCoordinate --runThreadN 1 --alignIntronMin 1 --alignIntronMax 2500
 ```
 
-## 13.1.6 Make an index of the mapping results (needed for visualization later)
+## 13.1.7 Make an index of the mapping results (needed for visualization later)
 - Run this:
 ```bash
 samtools index resultsAligned.sortedByCoord.out.bam
 ```
 
-## 13.1.7 Interpreting the output file
+## 13.1.8 Interpreting the output file
 ```diff
 ! Look at the resultsLog.final.out file. Try to describe what you see in the file.
 ```
