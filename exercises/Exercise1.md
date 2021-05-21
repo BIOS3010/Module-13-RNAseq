@@ -62,7 +62,7 @@ Then, make an index of the genome:
 STAR --runThreadN 1 --runMode genomeGenerate --genomeDir sacCer3 --genomeFastaFiles sacCer3/sacCer3.fa --sjdbGTFfile sacCer3/sacCer3.ensGene.gtf --sjdbOverhang 49
 ```
 
-## 13.1.6 Mapping RNA-seq reads to the refernence genome index
+## 13.1.6 Mapping RNA-seq reads to the reference genome index
 - Run this command to map the reads to the reference genome sequence:
 
 ```bash
