@@ -54,7 +54,7 @@ Now we have the (1) RNA-seq sequence data (fastq format), the genome sequence of
 - Run the following commands to load the sequence mapping software (STAR), and software to work with the sequences (SAMtools):
 
 ```bash
-module load STAR/2.7.8a-GCC-10.2.0 SAMtools/1.10-GCC-9.3.0
+module load STAR/2.7.8a-GCC-9.3.0 SAMtools/1.10-GCC-9.3.0
 ```
 Then, make an index of the genome:
 
