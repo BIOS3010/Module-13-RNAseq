@@ -63,10 +63,7 @@ def SA_binary_search(x, q, sa):
 
 ```diff
 ! Fill inn all places with `...` to complete the SA_binary_search function
-! Use it in combination with the function `suffix_array_naive` to  experiment with the string "banana" and queries "ban",
-"na", and "xan" respectively. What does it return? To make things less messy, comment all "print" commands inside
-`suffix_array_naive`.
-! Check whether the query "ACG" is contained in the string
-"TAAGGTGAGATAACTCCGTAACTGACTACGCCTTCCTCTAGACCTTACTTGACCAGATACAGTGTCTTTGACACGTTTATGGATTACAGCAATCACATCCAAGACTGGCT".
+! Use it in combination with the function `suffix_array_naive` to  experiment with the string "banana" and queries "ban", "na", and "xan" respectively. What does it return? To make things less messy, comment all "print" commands inside `suffix_array_naive`.
+! Check whether the query "ACG" is contained in the string "TAAGGTGAGATAACTCCGTAACTGACTACGCCTTCCTCTAGACCTTACTTGACCAGATACAGTGTCTTTGACACGTTTATGGATTACAGCAATCACATCCAAGACTGGCT".
 ! Can you imagine a way to identify ALL positions of the query inside the string? Look at how the suffix array is defined.
 ```
