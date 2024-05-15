@@ -19,6 +19,7 @@ def suffix_array_naive(s):
     print(f"Just the sorted indices (i.e., the suffix array): {suffix_array}")
     return suffix_array
 ```
+## 13.3.1 Creating a suffix array
 
 ```diff
 ! Fill inn all places with `...` to extract the sorted suffixes and the corresponding indexes (i.e., the suffix array)
@@ -29,8 +30,8 @@ def suffix_array_naive(s):
 *FYI*: pneumonoultramicroscopicsilicovolcanoconiosis, from the Cambridge English Dictionary: a name that has been invented 
 for a lung disease caused by breathing in very small pieces of ash or dust.
 
-You will now complete the following Python code and explore the utility of binary search when working with suffix 
-arrays. 
+## 13.3.2 Binary search in suffic arrays
+You will now complete the following Python code and explore the utility of binary search when working with suffix arrays. 
 
 ```python
 import os
