@@ -17,6 +17,6 @@ sequence to final results
 - Go to [these exercises](exercises/Exercise1.md) and follow the steps
 ## 13.2 Visualizing mapped reads in a genome browser (IGV)
 - Go to [these exercises](exercises/Exercise2.md) and follow the steps
-## 13.3 Working with suffic arrays and binary search
+## 13.3 Working with suffix arrays and binary search
 - Go to [these exercises](exercises/Exercise3.md) and follow the steps
 
