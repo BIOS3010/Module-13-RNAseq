@@ -1,6 +1,5 @@
 ## 13.1.1. Logging in to the external server
-Using your terminal, log in to either `itf-appn-test01.hpc.uio.no` (group 1-5 do this) or `itf-appn-test02.hpc.uio.no` (group
-6-10). If you have forgotten how to do this, refer back to [Module 10](https://github.com/BIOS3010/Module-10-HTS/blob/main/00-Get_started.md#logging-on-to-the-server).
+Using your terminal, log in to `bioint02.hpc.uio.no`. If you have forgotten how to do this, refer back to [Module 10](https://github.com/BIOS3010/Module-10-HTS/blob/main/00-Get_started.md#logging-on-to-the-server).
 
 ```diff
 ! In your home directory, make a directory called `RNAseq` 
@@ -54,7 +53,9 @@ Now we have the (1) RNA-seq sequence data (fastq format), the genome sequence of
 - Run the following commands to load the sequence mapping software (STAR), and software to work with the sequences (SAMtools):
 
 ```bash
-module load STAR/2.7.8a-GCC-9.3.0 SAMtools/1.10-GCC-9.3.0
+conda create -n mapping
+conda install bioconda::star
+conda install bioconda::samtools
 ```
 Then, make an index of the genome:
 
