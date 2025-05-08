@@ -54,6 +54,7 @@ Now we have the (1) RNA-seq sequence data (fastq format), the genome sequence of
 
 ```bash
 conda create -n mapping
+conda activate mapping
 conda install bioconda::star
 conda install bioconda::samtools
 ```
